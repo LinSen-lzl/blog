@@ -1,0 +1,220 @@
+export default {
+  "/backend/websocket/": [
+    {
+      text: '什么是WebSocket？',
+      link: '/backend/websocket/#什么是websocket'
+    },
+    {
+      text: '什么是实时通信',
+      link: '/backend/websocket/#什么是实时通信'
+    },
+    {
+      text: '在没有websocket之前的实时通信',
+      link: '/backend/websocket/#在没有websocket之前的实时通信'
+    },
+    {
+      text: 'WebSocket的优势',
+      link: '/backend/websocket/#websocket的优势'
+    },
+    {
+      text: 'WebSocket的心跳机制',
+      link: '/backend/websocket/#websocket的心跳机制'
+    },
+    {
+      text: '使用WebSocket实现实时通信示例',
+      link: '/backend/websocket/#使用websocket实现实时通信示例',
+      children: [
+        {
+          text: '1.引入依赖',
+          link: '/backend/websocket/#_1-引入依赖'
+        },
+        {
+          text: '2.WebSocket配置类',
+          link: '/backend/websocket/#_2-websocket配置类'
+        },
+        {
+          text: '3.消息模板类',
+          link: '/backend/websocket/#_3-消息模板类'
+        },
+        {
+          text: '4.Controller',
+          link: '/backend/websocket/#_4-controller'
+        },
+        {
+          text: '5.前端页面(index.html)',
+          link: '/backend/websocket/#_5-前端页面-index-html'
+        },
+        {
+          text: '6.结果演示',
+          link: '/backend/websocket/#_6-结果演示'
+        }
+      ]
+    }
+  ],
+  "/backend/javathread/": [
+    {
+      text: '认识多线程',
+      link: '/backend/javathread/#认识多线程',
+      children: [
+        {
+          text: '一、进程与线程',
+          link: '/backend/javathread/#一、进程与线程'
+        },
+        {
+          text: '二、并发与并行',
+          link: '/backend/javathread/#二、并发与并行'
+        },
+        {
+          text: '三、为什么要用多线程',
+          link: '/backend/javathread/#三、为什么要用多线程'
+        }
+      ]
+    },
+    {
+      text: 'Java多线程的基础实现',
+      link: '/backend/javathread/#java多线程的基础实现',
+      children: [
+        {
+          text: '一、继承Thread类',
+          link: '/backend/javathread/#一、继承thread类'
+        },
+        {
+          text: '二、实现Runnable接口',
+          link: '/backend/javathread/#二、实现runnable接口'
+        },
+        {
+          text: '三、实现Callable接口',
+          link: '/backend/javathread/#三、实现callable接口'
+        }
+      ]
+    },
+    {
+      text: '基础多线程的局限性',
+      link: '/backend/javathread/#基础多线程的局限性'
+    },
+    {
+      text: '线程池',
+      link: '/backend/javathread/#线程池',
+      children: [
+        {
+          text: '一、基本概念',
+          link: '/backend/javathread/#一、基本概念'
+        },
+        {
+          text: '二、适用场景',
+          link: '/backend/javathread/#二、适用场景'
+        }
+      ]
+    },
+    {
+      text: 'ThreadPoolExecutor',
+      link: '/backend/javathread/#threadpoolexecutor',
+      children: [
+        {
+          text: '一、构造函数与参数详解',
+          link: '/backend/javathread/#一、构造函数与参数详解'
+        },
+        {
+          text: '二、预定义线程池',
+          link: '/backend/javathread/#二、预定义线程池'
+        },
+        {
+          text: '三、ThreadPoolExecutor的参数配置建议',
+          link: '/backend/javathread/#三、threadpoolexecutor的参数配置建议'
+        },
+        {
+          text: '四、使用示例',
+          link: '/backend/javathread/#四、使用示例'
+        }
+      ]
+    },
+    {
+      text: 'ForkJoinPool',
+      link: '/backend/javathread/#forkjoinpool',
+      children: [
+        {
+          text: '一、需求背景',
+          link: '/backend/javathread/#一、需求背景'
+        },
+        {
+          text: '二、简介',
+          link: '/backend/javathread/#二、简介'
+        },
+        {
+          text: '三、与ThreadPoolExecutor对比',
+          link: '/backend/javathread/#三、与threadpoolexecutor对比'
+        },
+        {
+          text: '四、并行流',
+          link: '/backend/javathread/#四、并行流'
+        },
+        {
+          text: '五、使用示例',
+          link: '/backend/javathread/#五、使用示例'
+        }
+      ]
+    }
+  ],
+  "/backend/threadsync/": [
+    {
+      text: '什么是线程同步',
+      link: '/backend/threadsync/#什么是线程同步'
+    },
+    {
+      text: '为什么需要线程同步',
+      link: '/backend/threadsync/#为什么需要线程同步'
+    },
+    {
+      text: '线程同步会遇到的问题',
+      link: '/backend/threadsync/#线程同步会遇到的问题'
+    },
+    {
+      text: '如何实现线程同步',
+      link: '/backend/threadsync/#如何实现线程同步',
+      children: [
+        {
+          text: '一、synchronized关键字',
+          link: '/backend/threadsync/#一、synchronized关键字'
+        },
+        {
+          text: '二、ReentrantLock',
+          link: '/backend/threadsync/#二、reentrantlock'
+        },
+        {
+          text: '三、原子类（Atomic Classes）',
+          link: '/backend/threadsync/#三、原子类-atomic-classes'
+        },
+        {
+          text: '四、CountDownlatch',
+          link: '/backend/threadsync/#四、countdownlatch'
+        }
+      ]
+    }
+  ],
+  "/backend/javalock": [
+    {
+      text: '为什么要写这篇文章？',
+      link: '/backend/javalock/#为什么要写这篇文章'
+    },
+    {
+      text: '锁的分类维度',
+      link: '/backend/javalock/#锁的分类维度'
+    },
+    {
+      text: '按并发策略分类（悲观锁与乐观锁）',
+      link: '/backend/javalock/#按并发策略分类-悲观锁与乐观锁'
+    },
+    {
+      text: '按公平性分类（公平锁与非公平锁）',
+      link: '/backend/javalock/#按公平性分类-公平锁与非公平锁'
+    },
+    {
+      text: '按可重入性分类（可重入锁与不可重入锁）',
+      link: '/backend/javalock/#按可重入性分类-可重入锁与不可重入锁'
+    },
+    {
+      text: '按共享性分类（共享锁与排他锁）',
+      link: '/backend/javalock/#按共享性分类-共享锁与排他锁'
+    }
+  ]
+}

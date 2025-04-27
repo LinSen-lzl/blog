@@ -1,0 +1,38 @@
+import { defaultTheme } from '@vuepress/theme-default'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defineUserConfig } from 'vuepress'
+import navConfig from './config/navConfig'
+import sidebarConfig from './config/sidebarConfig'
+import pluginConfg from './config/pluginConfig'
+
+export default defineUserConfig({
+  lang: 'zh-CN',
+  title: '深海怪鱼的博客',
+  bundler: viteBundler({
+    viteOptions: {
+      css: {
+        preprocessorOptions: {
+          scss: {
+            quietDeps: true
+          }
+        }
+      }
+    }
+  }),
+  theme: defaultTheme({
+    logo: '/main.jpg',
+    navbar: navConfig,
+    sidebar: sidebarConfig,
+    docsDir: 'docs'
+  }),
+  plugins: pluginConfg,
+  markdown: {
+    importCode: { 
+      handleImportPath: str => str.replace(
+        /^@components/, 
+        // 使用规范化路径处理
+        path.normalize(path.resolve(__dirname, './components'))
+      )
+    },
+  }
+})
