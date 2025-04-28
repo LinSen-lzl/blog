@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-a1d90e72","path":"/backend/postgresql/","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1745858301000,"contributors":[{"name":"LinSen","email":"985451028@qq.com","commits":1}]},"filePathRelative":"backend/postgresql/README.md"}');export{e as data};

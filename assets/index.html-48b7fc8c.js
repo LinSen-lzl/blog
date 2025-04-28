@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2b381e43","path":"/ai/mcp/","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1745858301000,"contributors":[{"name":"LinSen","email":"985451028@qq.com","commits":1}]},"filePathRelative":"ai/mcp/README.md"}');export{e as data};
