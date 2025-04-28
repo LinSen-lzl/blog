@@ -7,7 +7,7 @@ import pluginConfg from './config/pluginConfig'
 
 export default defineUserConfig({
 
-  base: '/',
+  base: '/blog/',
 
   lang: 'zh-CN',
   title: '深海怪鱼的博客',
