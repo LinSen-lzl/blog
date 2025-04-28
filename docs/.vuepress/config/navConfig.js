@@ -21,7 +21,7 @@ export default [
         { text: 'Java锁', link: '/backend/javalock/' },
         { text: 'MySQL', link: '/backend/mysql/' },
         { text: 'Flowable工作流', link: '/backend/flowable/' },
-        { text: 'SpringSecurity', link: '/backend/springsecurity/' },
+        { text: '消息队列', link: '/backend/mq'},
         { text: 'SpringCloud', link: '/backend/springcloud/' },
         { text: 'JDK新特性', link: '/backend/jdknewfeatures' }
       ]
