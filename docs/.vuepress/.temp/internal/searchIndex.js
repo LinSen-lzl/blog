@@ -22,46 +22,6 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/algorithm/dac/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/algorithm/dp/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/algorithm/sw/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/algorithm/thinking/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
     "path": "/backend/flowable/",
     "pathLocale": "/",
     "extraFields": [
@@ -116,16 +76,6 @@ export const searchIndex = [
       }
     ],
     "path": "/backend/javalock/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/backend/mysql/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -198,6 +148,16 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
+    "path": "/backend/mysql/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
     "path": "/backend/postgresql/",
     "pathLocale": "/",
     "extraFields": [
@@ -218,46 +178,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/deployment/docker/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "什么是线程同步",
-        "slug": "什么是线程同步",
-        "link": "#什么是线程同步",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "为什么需要线程同步",
-        "slug": "为什么需要线程同步",
-        "link": "#为什么需要线程同步",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "线程同步会遇到的问题",
-        "slug": "线程同步会遇到的问题",
-        "link": "#线程同步会遇到的问题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "如何实现线程同步",
-        "slug": "如何实现线程同步",
-        "link": "#如何实现线程同步",
-        "children": []
-      }
-    ],
-    "path": "/backend/threadsync/",
+    "path": "/backend/springsecurity/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -320,7 +241,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/backend/springsecurity/",
+    "path": "/algorithm/dac/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -330,7 +251,66 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/deployment/kubernetes/",
+    "path": "/algorithm/dp/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "什么是线程同步",
+        "slug": "什么是线程同步",
+        "link": "#什么是线程同步",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "为什么需要线程同步",
+        "slug": "为什么需要线程同步",
+        "link": "#为什么需要线程同步",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "线程同步会遇到的问题",
+        "slug": "线程同步会遇到的问题",
+        "link": "#线程同步会遇到的问题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "如何实现线程同步",
+        "slug": "如何实现线程同步",
+        "link": "#如何实现线程同步",
+        "children": []
+      }
+    ],
+    "path": "/backend/threadsync/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/algorithm/sw/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/algorithm/thinking/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -350,27 +330,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/deployment/nginx/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
     "path": "/frontend/html/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/frontend/vue/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -390,6 +350,46 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
+    "path": "/deployment/docker/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/frontend/vue/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/deployment/kubernetes/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/deployment/nginx/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
     "path": "/404.html",
     "pathLocale": "/",
     "extraFields": [
@@ -398,3 +398,16 @@ export const searchIndex = [
     ]
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}
