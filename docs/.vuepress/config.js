@@ -21,9 +21,12 @@ export default defineUserConfig({
   }),
   theme: defaultTheme({
     logo: '/main.jpg',
+    lastUpdatedText: '更新时间',
+    docsRepo: 'LinSen-lzl/blog',
+    docsDir: 'docs',
+    docsBranch: 'master',
     navbar: navConfig,
-    sidebar: sidebarConfig,
-    docsDir: 'docs'
+    sidebar: sidebarConfig
   }),
   plugins: pluginConfg,
   markdown: {
