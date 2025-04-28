@@ -17,8 +17,10 @@ jobs:
           cache: 'npm'  # 关键修改点
 
       - name: Install dependencies
-        run: npm install
-        working-directory: ./docs  # 如果项目在子目录
+        run: |
+          npm install
+          chmod -R 755 node_modules
+        working-directory: ./docs
 
       - name: Build
         run: npm run docs:build
