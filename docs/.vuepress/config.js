@@ -6,9 +6,6 @@ import sidebarConfig from './config/sidebarConfig'
 import pluginConfg from './config/pluginConfig'
 
 export default defineUserConfig({
-
-  base: '/blog/',
-
   lang: 'zh-CN',
   title: '深海怪鱼的博客',
   bundler: viteBundler({
@@ -25,6 +22,8 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/main.jpg',
     lastUpdatedText: '更新时间',
+    contributorsText: '贡献者',
+    editLinkText: '编辑此文档',
     docsRepo: 'LinSen-lzl/blog',
     docsDir: 'docs',
     docsBranch: 'master',

@@ -22,7 +22,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/backend/flowable/",
+    "path": "/algorithm/dac/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -31,51 +31,38 @@ export const searchIndex = [
   },
   {
     "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "为什么要写这篇文章？",
-        "slug": "为什么要写这篇文章",
-        "link": "#为什么要写这篇文章",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "锁的分类维度",
-        "slug": "锁的分类维度",
-        "link": "#锁的分类维度",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "按并发策略分类（悲观锁与乐观锁）",
-        "slug": "按并发策略分类-悲观锁与乐观锁",
-        "link": "#按并发策略分类-悲观锁与乐观锁",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "按公平性分类（公平锁与非公平锁）",
-        "slug": "按公平性分类-公平锁与非公平锁",
-        "link": "#按公平性分类-公平锁与非公平锁",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "按可重入性分类（可重入锁与不可重入锁）",
-        "slug": "按可重入性分类-可重入锁与不可重入锁",
-        "link": "#按可重入性分类-可重入锁与不可重入锁",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "按共享性分类（共享锁与排他锁）",
-        "slug": "按共享性分类-共享锁与排他锁",
-        "link": "#按共享性分类-共享锁与排他锁",
-        "children": []
-      }
-    ],
-    "path": "/backend/javalock/",
+    "headers": [],
+    "path": "/algorithm/dp/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/algorithm/thinking/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/algorithm/sw/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/backend/flowable/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -137,8 +124,51 @@ export const searchIndex = [
   },
   {
     "title": "",
-    "headers": [],
-    "path": "/backend/jdknewfeatures/",
+    "headers": [
+      {
+        "level": 2,
+        "title": "为什么要写这篇文章？",
+        "slug": "为什么要写这篇文章",
+        "link": "#为什么要写这篇文章",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "锁的分类维度",
+        "slug": "锁的分类维度",
+        "link": "#锁的分类维度",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "按并发策略分类（悲观锁与乐观锁）",
+        "slug": "按并发策略分类-悲观锁与乐观锁",
+        "link": "#按并发策略分类-悲观锁与乐观锁",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "按公平性分类（公平锁与非公平锁）",
+        "slug": "按公平性分类-公平锁与非公平锁",
+        "link": "#按公平性分类-公平锁与非公平锁",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "按可重入性分类（可重入锁与不可重入锁）",
+        "slug": "按可重入性分类-可重入锁与不可重入锁",
+        "link": "#按可重入性分类-可重入锁与不可重入锁",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "按共享性分类（共享锁与排他锁）",
+        "slug": "按共享性分类-共享锁与排他锁",
+        "link": "#按共享性分类-共享锁与排他锁",
+        "children": []
+      }
+    ],
+    "path": "/backend/javalock/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -158,7 +188,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/backend/postgresql/",
+    "path": "/backend/jdknewfeatures/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -179,6 +209,75 @@ export const searchIndex = [
     "title": "",
     "headers": [],
     "path": "/backend/springsecurity/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "什么是线程同步",
+        "slug": "什么是线程同步",
+        "link": "#什么是线程同步",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "为什么需要线程同步",
+        "slug": "为什么需要线程同步",
+        "link": "#为什么需要线程同步",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "线程同步会遇到的问题",
+        "slug": "线程同步会遇到的问题",
+        "link": "#线程同步会遇到的问题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "如何实现线程同步",
+        "slug": "如何实现线程同步",
+        "link": "#如何实现线程同步",
+        "children": []
+      }
+    ],
+    "path": "/backend/threadsync/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/backend/postgresql/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/deployment/docker/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/deployment/kubernetes/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -241,7 +340,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/algorithm/dac/",
+    "path": "/frontend/html/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -251,66 +350,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/algorithm/dp/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "什么是线程同步",
-        "slug": "什么是线程同步",
-        "link": "#什么是线程同步",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "为什么需要线程同步",
-        "slug": "为什么需要线程同步",
-        "link": "#为什么需要线程同步",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "线程同步会遇到的问题",
-        "slug": "线程同步会遇到的问题",
-        "link": "#线程同步会遇到的问题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "如何实现线程同步",
-        "slug": "如何实现线程同步",
-        "link": "#如何实现线程同步",
-        "children": []
-      }
-    ],
-    "path": "/backend/threadsync/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/algorithm/sw/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/algorithm/thinking/",
+    "path": "/deployment/nginx/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -330,16 +370,6 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/frontend/html/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
     "path": "/frontend/javascript/",
     "pathLocale": "/",
     "extraFields": [
@@ -350,37 +380,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/deployment/docker/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
     "path": "/frontend/vue/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/deployment/kubernetes/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/deployment/nginx/",
     "pathLocale": "/",
     "extraFields": [
       null,
