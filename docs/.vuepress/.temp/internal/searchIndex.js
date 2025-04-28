@@ -52,6 +52,16 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
+    "path": "/algorithm/thinking/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
     "path": "/backend/flowable/",
     "pathLocale": "/",
     "extraFields": [
@@ -114,6 +124,16 @@ export const searchIndex = [
   },
   {
     "title": "",
+    "headers": [],
+    "path": "/backend/mysql/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
     "headers": [
       {
         "level": 2,
@@ -168,27 +188,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/algorithm/thinking/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
     "path": "/backend/jdknewfeatures/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/backend/mysql/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -218,7 +218,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/backend/springsecurity/",
+    "path": "/deployment/docker/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -320,17 +320,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/deployment/docker/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/frontend/css/",
+    "path": "/backend/springsecurity/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -341,6 +331,16 @@ export const searchIndex = [
     "title": "",
     "headers": [],
     "path": "/deployment/kubernetes/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/frontend/css/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -370,7 +370,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/frontend/javascript/",
+    "path": "/frontend/vue/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -380,7 +380,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/frontend/vue/",
+    "path": "/frontend/javascript/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -398,16 +398,3 @@ export const searchIndex = [
     ]
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}

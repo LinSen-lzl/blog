@@ -2,8 +2,7 @@ name: Deploy
 
 on:
   push:
-    branches:
-      - master
+    branches: [master]
 
 jobs:
   deploy:
@@ -15,24 +14,18 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18.19.0
-          cache: 'pnpm'
-
-      - name: Install pnpm
-        run: npm install -g pnpm@8
+          cache: 'npm'  # 关键修改点
 
       - name: Install dependencies
-        run: pnpm install
-        working-directory: ./docs  # 指定子目录
+        run: npm install
+        working-directory: ./docs  # 如果项目在子目录
 
       - name: Build
-        run: pnpm run docs:build
-        working-directory: ./docs  # 必须与安装目录一致
-        env:
-          NODE_OPTIONS: '--max_old_space_size=4096'  # 防止内存不足
+        run: npm run docs:build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.PAGES_TOKEN }}
-          publish_dir: docs/.vuepress/dist 
+          publish_dir: docs/.vuepress/dist
           cname: docs.linsen.blog
