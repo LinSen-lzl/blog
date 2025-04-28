@@ -11,23 +11,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
-          run_install: false
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18.19.0 
-          cache: 'pnpm' 
+          node-version: 18.19.0
+          cache: 'pnpm'
+
+      - name: Install pnpm
+        run: npm install -g pnpm@8
 
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
+        working-directory: ./docs  # 指定子目录
 
       - name: Build
-        run: npm run docs:build
+        run: pnpm run docs:build
+        working-directory: ./docs  # 必须与安装目录一致
+        env:
+          NODE_OPTIONS: '--max_old_space_size=4096'  # 防止内存不足
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
