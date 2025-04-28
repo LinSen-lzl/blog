@@ -1,0 +1,1 @@
+import{_ as t,p as n,q as c,R as e}from"./framework-840e299b.js";const s={},o=e("div",{class:"custom-container warning"},[e("p",{class:"custom-container-title"},"关于我"),e("p",null,"博客旨在搭建个人知识库，仅供参考，本人记录的输出文档会陆续更新")],-1),a=[o];function _(r,i){return n(),c("div",null,a)}const d=t(s,[["render",_],["__file","index.html.vue"]]);export{d as default};
