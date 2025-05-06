@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-0cd67b7c","path":"/algorithm/dac/","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1746549110000,"contributors":[{"name":"LinSen","email":"985451028@qq.com","commits":1}]},"filePathRelative":"algorithm/dac/README.md"}');export{t as data};
