@@ -220,19 +220,19 @@ export default {
   "/backend/mysql": [
     {
       text: 'MySQL的存储引擎',
-      link: '/backend/javalock/#mysql的存储引擎',
+      link: '/backend/mysql/#mysql的存储引擎',
       children: [
         {
           text: '一、什么是存储引擎',
-          link: '/backend/javathread/#一、什么是存储引擎'
+          link: '/backend/mysql/#一、什么是存储引擎'
         },
         {
           text: '二、常用的存储引擎',
-          link: '/backend/javathread/#二、常用的存储引擎'
+          link: '/backend/mysql/#二、常用的存储引擎'
         },
         {
           text: '三、总结',
-          link: '/backend/javathread/#三、总结'
+          link: '/backend/mysql/#三、总结'
         }
       ]
     },
