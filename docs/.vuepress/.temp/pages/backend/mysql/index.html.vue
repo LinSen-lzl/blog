@@ -5,7 +5,7 @@
 <h4 id="二、常用的存储引擎" tabindex="-1"><a class="header-anchor" href="#二、常用的存储引擎" aria-hidden="true">#</a> 二、常用的存储引擎</h4>
 <p><strong>1、InnoDB（推荐）</strong></p>
 <p>在MySQL5.5版本之后，InnoDB成为默认引擎，InnoDB是MySQL的默认事务型引擎，与其他存储引擎相比，由于它的ACID事务支持、行级锁和崩溃恢复等机制，更适合用于处理高并发、大数据量的场景</p>
-<p>特性：</p>
+<p>InnoDB的特性：</p>
 <ul>
 <li>
 <p>ACID事务支持：事务处理中的 ACID 使得InnoDB确保了数据库操作的可靠性和完整性</p>
@@ -43,8 +43,27 @@
 </ul>
 </li>
 <li>
-<p>高性能存储结构：</p>
+<p>高性能存储结构：InnoDB的存储结构是其高性能的核心基础，通过优化数据组织、索引设计、内存管理和日志机制，显著提升了读写效率与并发能力</p>
+<ul>
+<li>
+<p>聚簇索引：聚簇索引是<strong>B+树的其中一种实现</strong>，聚簇索引是一种数据存储方式，即索引的叶子节点直接存储完整数据行（而非指向数据的指针），也就是所谓的索引即数据，数据即索引；InnoDB表的主键索引就是聚簇索引的实现，根据主键查询时无需<strong>回表</strong>（根据数据的主键再走一次聚簇索引的查询），直接定位数据，速度极快</p>
+<p><img src="/img/ClusteredIndex.jpg" alt="ci"></p>
 </li>
+<li>
+<p>二级索引：又叫辅助索引、非聚簇索引，<strong>也是B+树的一种实现</strong>，因此也与聚簇索引有着相同的数据结构，但是叶子结点存储并不是完整的数据行，而是主键值，所以通过二级索引查找完整的数据行时，先通过二级索引的字段找到叶子结点的字段，然后还需要再通过主键走聚簇索引的查询，这个过程称为<strong>回表</strong>；二级索引用于非主键的索引</p>
+<p><img src="/img/SecondaryIndex.jpg" alt="si"></p>
+</li>
+<li></li>
+</ul>
+</li>
+</ul>
+<p>​</p>
+<ul>
+<li></li>
+</ul>
+<ul>
+<li>高可靠性设计：</li>
+<li></li>
 </ul>
 <p><strong>2、MyISAM</strong></p>
 <p><strong>3、Memory</strong></p>

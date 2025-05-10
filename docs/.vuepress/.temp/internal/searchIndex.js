@@ -22,26 +22,6 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/algorithm/dac/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/algorithm/dp/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
     "path": "/backend/flowable/",
     "pathLocale": "/",
     "extraFields": [
@@ -96,16 +76,6 @@ export const searchIndex = [
       }
     ],
     "path": "/backend/javalock/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/algorithm/sw/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -187,16 +157,6 @@ export const searchIndex = [
   },
   {
     "title": "",
-    "headers": [],
-    "path": "/algorithm/thinking/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
     "headers": [
       {
         "level": 2,
@@ -216,27 +176,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/backend/postgresql/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
     "path": "/backend/springcloud/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/frontend/css/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -285,7 +225,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/frontend/html/",
+    "path": "/backend/postgresql/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -305,37 +245,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/frontend/javascript/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/frontend/vue/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/deployment/docker/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/deployment/kubernetes/",
+    "path": "/algorithm/dac/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -398,7 +308,97 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
+    "path": "/algorithm/thinking/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/algorithm/dp/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/deployment/docker/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/algorithm/sw/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/deployment/kubernetes/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/frontend/css/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
     "path": "/deployment/nginx/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/frontend/html/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/frontend/javascript/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/frontend/vue/",
     "pathLocale": "/",
     "extraFields": [
       null,
