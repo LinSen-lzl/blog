@@ -185,6 +185,26 @@ export const searchIndex = [
   },
   {
     "title": "",
+    "headers": [],
+    "path": "/backend/springsecurity/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/backend/postgresql/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
     "headers": [
       {
         "level": 2,
@@ -216,26 +236,6 @@ export const searchIndex = [
       }
     ],
     "path": "/backend/threadsync/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/backend/postgresql/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/backend/springsecurity/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -308,16 +308,6 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/algorithm/thinking/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
     "path": "/algorithm/dp/",
     "pathLocale": "/",
     "extraFields": [
@@ -328,47 +318,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/deployment/docker/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/algorithm/sw/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/deployment/kubernetes/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/frontend/css/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/deployment/nginx/",
+    "path": "/algorithm/thinking/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -398,7 +348,57 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
+    "path": "/algorithm/sw/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
     "path": "/frontend/vue/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/frontend/css/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/deployment/kubernetes/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/deployment/docker/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/deployment/nginx/",
     "pathLocale": "/",
     "extraFields": [
       null,
