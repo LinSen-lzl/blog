@@ -160,6 +160,13 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
+        "title": "MySQL的数据结构",
+        "slug": "mysql的数据结构",
+        "link": "#mysql的数据结构",
+        "children": []
+      },
+      {
+        "level": 2,
         "title": "MySQL的存储引擎",
         "slug": "mysql的存储引擎",
         "link": "#mysql的存储引擎",
@@ -167,26 +174,6 @@ export const searchIndex = [
       }
     ],
     "path": "/backend/mysql/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/backend/springcloud/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/backend/springsecurity/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -245,7 +232,17 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/algorithm/dac/",
+    "path": "/backend/springsecurity/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/backend/springcloud/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -308,26 +305,6 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/algorithm/dp/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/algorithm/thinking/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
     "path": "/frontend/html/",
     "pathLocale": "/",
     "extraFields": [
@@ -339,16 +316,6 @@ export const searchIndex = [
     "title": "",
     "headers": [],
     "path": "/frontend/javascript/",
-    "pathLocale": "/",
-    "extraFields": [
-      null,
-      ""
-    ]
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/algorithm/sw/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -378,7 +345,37 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/deployment/kubernetes/",
+    "path": "/algorithm/dac/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/algorithm/sw/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/algorithm/thinking/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/algorithm/dp/",
     "pathLocale": "/",
     "extraFields": [
       null,
@@ -389,6 +386,16 @@ export const searchIndex = [
     "title": "",
     "headers": [],
     "path": "/deployment/docker/",
+    "pathLocale": "/",
+    "extraFields": [
+      null,
+      ""
+    ]
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/deployment/kubernetes/",
     "pathLocale": "/",
     "extraFields": [
       null,
