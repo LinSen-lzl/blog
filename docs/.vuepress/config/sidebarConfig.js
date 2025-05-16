@@ -219,6 +219,10 @@ export default {
   ],
   "/backend/mysql": [
     {
+      text: 'MySQL的数据结构',
+      link: '/backend/mysql/#mysql的数据结构'
+    },
+    {
       text: 'MySQL的存储引擎',
       link: '/backend/mysql/#mysql的存储引擎',
       children: [
