@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-2a1f6b46","path":"/algorithm/thinking/","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1747417308000,"contributors":[{"name":"LinSen","email":"65052165+LinSen-lzl@users.noreply.github.com","commits":1}]},"filePathRelative":"algorithm/thinking/README.md"}');export{t as data};
