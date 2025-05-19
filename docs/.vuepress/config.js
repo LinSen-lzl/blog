@@ -21,6 +21,7 @@ export default defineUserConfig({
   }),
   theme: defaultTheme({
     logo: '/main.jpg',
+    lastUpdated: true,
     lastUpdatedText: '更新时间',
     contributorsText: '贡献者',
     editLinkText: '编辑此文档',

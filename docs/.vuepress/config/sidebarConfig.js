@@ -220,7 +220,21 @@ export default {
   "/backend/mysql": [
     {
       text: 'MySQL的数据结构',
-      link: '/backend/mysql/#mysql的数据结构'
+      link: '/backend/mysql/#mysql的数据结构',
+      children: [
+        {
+          text: '一、B-Tree',
+          link: '/backend/mysql/#一、B-Tree'
+        },
+        {
+          text: '二、B+Tree',
+          link: '/backend/mysql/#二、B+Tree'
+        },
+        {
+          text: '三、哈希表',
+          link: '/backend/mysql/#三、哈希表'
+        }
+      ]
     },
     {
       text: 'MySQL的存储引擎',

@@ -1,4 +1,11 @@
 <template><div><h2 id="mysql的数据结构" tabindex="-1"><a class="header-anchor" href="#mysql的数据结构" aria-hidden="true">#</a> MySQL的数据结构</h2>
+<h4 id="一、b-tree" tabindex="-1"><a class="header-anchor" href="#一、b-tree" aria-hidden="true">#</a> 一、B-Tree</h4>
+<p>前置问题：随着数据规模的增涨和磁盘I/O次数增多，传统的数据结构（如二叉搜索树、链表、哈希表等）逐渐显得不足。为了<strong>满足在磁盘上高效地对数据进行增删改查</strong>，<strong>同时减少I/O次数</strong>，由此设计出了B-Tree。</p>
+<p>介绍：B-Tree是一种<strong>多路平衡树</strong>，每个节点可以拥有多个子节点，每个磁盘块中包括了<strong>关键字</strong>和<strong>子节点的指针</strong>，与传统的二叉树对比，减少树了的高度，降低磁盘访问次数（因为树越矮，查找路径越短，访问的节点越少）。能够高效管理大量数据并支持快速插入、删除、查找操作。</p>
+<p>结构示意图：</p>
+<p><img src="/img/B-Tree.jpg" alt="b-tree"></p>
+<h4 id="二、b-tree" tabindex="-1"><a class="header-anchor" href="#二、b-tree" aria-hidden="true">#</a> 二、B+Tree</h4>
+<h4 id="三、哈希表" tabindex="-1"><a class="header-anchor" href="#三、哈希表" aria-hidden="true">#</a> 三、哈希表</h4>
 <h2 id="mysql的存储引擎" tabindex="-1"><a class="header-anchor" href="#mysql的存储引擎" aria-hidden="true">#</a> MySQL的存储引擎</h2>
 <h4 id="一、什么是存储引擎" tabindex="-1"><a class="header-anchor" href="#一、什么是存储引擎" aria-hidden="true">#</a> 一、什么是存储引擎</h4>
 <p>MySQL的存储引擎是负责用于管理数据存储、检索和操作的核心组件，数据库使用存储引擎进行创建、查询、更新和删除数据，不同的存储引擎提供不同的存储机制、索引技巧、锁级别、事务等功能。存储引擎是基于表的，而非数据库。</p>
@@ -105,12 +112,16 @@
 </li>
 <li>
 <p>表结构与限制：</p>
+<ul>
+<li>固定长度行格式：Memory表的所有字段按固定长度存储，例如VARCHAR(255)会占用255字符的完整空间，即时实际数据很短</li>
+<li>数据类型限制：表字段有数据类型的限制，不支持TEXT、BLOB等大字段类型、不支持空间数据类型</li>
+</ul>
 </li>
 <li>
-<p>表级锁：</p>
+<p>表级锁：读写锁互斥，读操作加共享锁，写操作会锁定整张表，高并发写入时性能急剧下降</p>
 </li>
 <li>
-<p>内存管理与限制：</p>
+<p>内存管理与限制：存在内存分配的参数，</p>
 </li>
 </ul>
 <h4 id="三、总结" tabindex="-1"><a class="header-anchor" href="#三、总结" aria-hidden="true">#</a> 三、总结</h4>
